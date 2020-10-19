@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="crudzilla@localhost">
+  <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.15">
+    <root id="1">
+      <ServerVersion>10.0</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="crudzilla">
+      <ObjectId>103145</ObjectId>
+      <StateNumber>63301</StateNumber>
+      <Owner>crud_user</Owner>
+      <IntrospectionStateNumber>63314</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Relations>sequence|table|103146|103148|1
+sequence|table|103154|103156|1
+sequence|table|103174|103176|1
+sequence|table|103186|103188|1
+</Relations>
+    </database>
+    <database id="3" parent="1" name="crypto_rating">
+      <ObjectId>33512</ObjectId>
+      <StateNumber>24195</StateNumber>
+      <Owner>crypto_user</Owner>
+    </database>
+    <database id="4" parent="1" name="crypto_rating_prod">
+      <ObjectId>65442</ObjectId>
+      <StateNumber>48256</StateNumber>
+      <Owner>crypto_user</Owner>
+    </database>
+    <database id="5" parent="1" name="dms_demo">
+      <ObjectId>102731</ObjectId>
+      <StateNumber>63086</StateNumber>
+      <Owner>dms_user</Owner>
+    </database>
+    <database id="6" parent="1" name="drupal8">
+      <ObjectId>16601</ObjectId>
+      <StateNumber>923</StateNumber>
+      <Owner>drupal8_user</Owner>
+    </database>
+    <database id="7" parent="1" name="mhat">
+      <ObjectId>33081</ObjectId>
+      <StateNumber>23226</StateNumber>
+      <Owner>mhat_user</Owner>
+    </database>
+    <database id="8" parent="1" name="postgres">
+      <ObjectId>12938</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <StateNumber>554</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="9" parent="1" name="qarma_base">
+      <ObjectId>16502</ObjectId>
+      <StateNumber>574</StateNumber>
+      <Owner>qarma_user</Owner>
+    </database>
+    <database id="10" parent="1" name="sgeneri_base">
+      <ObjectId>16503</ObjectId>
+      <StateNumber>575</StateNumber>
+      <Owner>sgeneri_user</Owner>
+    </database>
+    <database id="11" parent="1" name="sgeneri_base_test">
+      <ObjectId>24792</ObjectId>
+      <StateNumber>22652</StateNumber>
+      <Owner>sgeneri_user</Owner>
+    </database>
+    <database id="12" parent="1" name="test">
+      <ObjectId>33505</ObjectId>
+      <StateNumber>24169</StateNumber>
+      <Owner>postgres</Owner>
+    </database>
+    <role id="13" parent="1" name="crud_user">
+      <ObjectId>103144</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="14" parent="1" name="crypto_user">
+      <ObjectId>33511</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="15" parent="1" name="dms_user">
+      <ObjectId>102730</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="16" parent="1" name="drupal8_user">
+      <ObjectId>16600</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="17" parent="1" name="mhat_user">
+      <ObjectId>33214</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="18" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="19" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="20" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="21" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="22" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="23" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <Replication>1</Replication>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="24" parent="1" name="qarma_user">
+      <ObjectId>16393</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="25" parent="1" name="sgeneri_user">
+      <ObjectId>16394</ObjectId>
+      <Inherit>1</Inherit>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="26" parent="2" name="information_schema">
+      <ObjectId>12648</ObjectId>
+      <StateNumber>354</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="27" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <StateNumber>351</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="28" parent="2" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+      <StateNumber>114</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="29" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <StateNumber>1</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="30" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+      <StateNumber>114</StateNumber>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="31" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <StateNumber>352</StateNumber>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>63315</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="32" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="33" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="34" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="35" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="36" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="37" parent="2" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <StateNumber>1</StateNumber>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <extension id="38" parent="2" name="plpgsql">
+      <ObjectId>12924</ObjectId>
+      <Comment>PL/pgSQL procedural language</Comment>
+      <StateNumber>506</StateNumber>
+      <Version>1.0</Version>
+      <SchemaName>pg_catalog</SchemaName>
+      <SchemaId>11</SchemaId>
+    </extension>
+    <sequence id="39" parent="31" name="currencies_id_seq">
+      <ObjectId>103186</ObjectId>
+      <StateNumber>63312</StateNumber>
+      <Owner>crud_user</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="40" parent="31" name="failed_jobs_id_seq">
+      <ObjectId>103174</ObjectId>
+      <StateNumber>63310</StateNumber>
+      <Owner>crud_user</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <sequence id="41" parent="31" name="migrations_id_seq">
+      <ObjectId>103146</ObjectId>
+      <StateNumber>63305</StateNumber>
+      <Owner>crud_user</Owner>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="42" parent="31" name="users_id_seq">
+      <ObjectId>103154</ObjectId>
+      <StateNumber>63306</StateNumber>
+      <Owner>crud_user</Owner>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+      <DataType>bigint</DataType>
+    </sequence>
+    <table id="43" parent="31" name="currencies">
+      <ObjectId>103188</ObjectId>
+      <Owner>crud_user</Owner>
+      <StateNumber>63312</StateNumber>
+    </table>
+    <table id="44" parent="31" name="failed_jobs">
+      <ObjectId>103176</ObjectId>
+      <Owner>crud_user</Owner>
+      <StateNumber>63310</StateNumber>
+    </table>
+    <table id="45" parent="31" name="migrations">
+      <ObjectId>103148</ObjectId>
+      <Owner>crud_user</Owner>
+      <StateNumber>63305</StateNumber>
+    </table>
+    <table id="46" parent="31" name="password_resets">
+      <ObjectId>103167</ObjectId>
+      <Owner>crud_user</Owner>
+      <StateNumber>63308</StateNumber>
+    </table>
+    <table id="47" parent="31" name="users">
+      <ObjectId>103156</ObjectId>
+      <Owner>crud_user</Owner>
+      <StateNumber>63306</StateNumber>
+    </table>
+    <column id="48" parent="43" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63312</StateNumber>
+      <DefaultExpression>nextval(&apos;currencies_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="49" parent="43" name="code">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63312</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="50" parent="43" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63312</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="51" parent="43" name="nominal">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63312</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="52" parent="43" name="description">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63312</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="53" parent="43" name="created_at">
+      <Position>6</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <StateNumber>63312</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="54" parent="43" name="updated_at">
+      <Position>7</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <StateNumber>63312</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="55" parent="43" name="currencies_pkey">
+      <ObjectId>103195</ObjectId>
+      <StateNumber>63312</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="56" parent="43" name="currencies_code_unique">
+      <ObjectId>103197</ObjectId>
+      <StateNumber>63312</StateNumber>
+      <ColNames>code</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="57" parent="43" name="currencies_pkey">
+      <ObjectId>103196</ObjectId>
+      <StateNumber>63312</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>currencies_pkey</UnderlyingIndexName>
+    </key>
+    <key id="58" parent="43" name="currencies_code_unique">
+      <ObjectId>103198</ObjectId>
+      <StateNumber>63312</StateNumber>
+      <ColNames>code</ColNames>
+      <UnderlyingIndexName>currencies_code_unique</UnderlyingIndexName>
+    </key>
+    <column id="59" parent="44" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63310</StateNumber>
+      <DefaultExpression>nextval(&apos;failed_jobs_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="60" parent="44" name="connection">
+      <Position>2</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63310</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="61" parent="44" name="queue">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63310</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="62" parent="44" name="payload">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63310</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="63" parent="44" name="exception">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63310</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="64" parent="44" name="failed_at">
+      <Position>6</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63310</StateNumber>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="65" parent="44" name="failed_jobs_pkey">
+      <ObjectId>103184</ObjectId>
+      <StateNumber>63310</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="66" parent="44" name="failed_jobs_pkey">
+      <ObjectId>103185</ObjectId>
+      <StateNumber>63310</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>failed_jobs_pkey</UnderlyingIndexName>
+    </key>
+    <column id="67" parent="45" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63305</StateNumber>
+      <DefaultExpression>nextval(&apos;migrations_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="68" parent="45" name="migration">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63305</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="69" parent="45" name="batch">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63305</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="70" parent="45" name="migrations_pkey">
+      <ObjectId>103152</ObjectId>
+      <StateNumber>63305</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="71" parent="45" name="migrations_pkey">
+      <ObjectId>103153</ObjectId>
+      <StateNumber>63305</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>migrations_pkey</UnderlyingIndexName>
+    </key>
+    <column id="72" parent="46" name="email">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63308</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="73" parent="46" name="token">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63308</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="74" parent="46" name="created_at">
+      <Position>3</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <StateNumber>63308</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="75" parent="46" name="password_resets_email_index">
+      <ObjectId>103173</ObjectId>
+      <StateNumber>63308</StateNumber>
+      <ColNames>email</ColNames>
+    </index>
+    <column id="76" parent="47" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63306</StateNumber>
+      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="77" parent="47" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63306</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="78" parent="47" name="email">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63306</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="79" parent="47" name="email_verified_at">
+      <Position>4</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <StateNumber>63306</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="80" parent="47" name="password">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>63306</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="81" parent="47" name="remember_token">
+      <Position>6</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <StateNumber>63306</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="82" parent="47" name="created_at">
+      <Position>7</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <StateNumber>63306</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="83" parent="47" name="updated_at">
+      <Position>8</Position>
+      <DataType>timestamp(0)|0s</DataType>
+      <StateNumber>63306</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <index id="84" parent="47" name="users_pkey">
+      <ObjectId>103163</ObjectId>
+      <StateNumber>63306</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <index id="85" parent="47" name="users_email_unique">
+      <ObjectId>103165</ObjectId>
+      <StateNumber>63306</StateNumber>
+      <ColNames>email</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="86" parent="47" name="users_pkey">
+      <ObjectId>103164</ObjectId>
+      <StateNumber>63306</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+    </key>
+    <key id="87" parent="47" name="users_email_unique">
+      <ObjectId>103166</ObjectId>
+      <StateNumber>63306</StateNumber>
+      <ColNames>email</ColNames>
+      <UnderlyingIndexName>users_email_unique</UnderlyingIndexName>
+    </key>
+  </database-model>
+</dataSource>
